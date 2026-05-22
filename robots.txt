@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+Disallow: /private/
+
+Sitemap: https://zongyesteel.com/sitemap.xml
