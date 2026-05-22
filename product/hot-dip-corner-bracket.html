@@ -20,7 +20,7 @@ a{text-decoration:none;color:var(--primary)}
 .breadcrumb a{color:var(--primary)}
 .section{background:var(--card);border-radius:12px;padding:28px 32px;margin-bottom:20px;border:1px solid var(--border)}
 .detail-hero{display:flex;gap:24px;flex-wrap:wrap;margin-bottom:20px}
-.detail-hero img{width:100%;max-width:380px;border-radius:10px;object-fit:cover}
+.detail-gallery{display:flex;flex-direction:column;gap:12px;flex-shrink:0}.detail-gallery img{width:100%;max-width:380px;border-radius:10px;object-fit:cover;cursor:pointer;transition:transform .2s}.detail-gallery img:hover{transform:scale(1.02)}
 .detail-hero-info{flex:1;min-width:260px}
 .detail-hero-info h2{font-size:1.4rem;color:var(--primary-dark);margin-bottom:12px}
 .detail-hero-info .price-big{color:var(--accent);font-weight:700;font-size:1.3rem;margin-bottom:12px}
@@ -46,7 +46,11 @@ th{background:#f1f5f9;color:var(--primary-dark);width:120px}
   <div class="breadcrumb"><a href="../index.html">首页</a> &raquo; <a href="../index.html#products">产品中心</a> &raquo; 热镀锌角码</div>
   <div class="section">
     <div class="detail-hero">
-      <img src="../images/hot-dip-corner-bracket.png" alt="热镀锌角码">
+      <div class="detail-gallery">
+        <img src="../images/hot-dip-corner-bracket.png" alt="热镀锌角码" loading="lazy">
+        <img src="../images/hot-dip-corner-bracket-2.jpg" alt="热镀锌角码 - 图2" loading="lazy">
+        <img src="../images/hot-dip-corner-bracket-3.jpg" alt="热镀锌角码 - 图3" loading="lazy">
+      </div>
       <div class="detail-hero-info">
         <h2>热镀锌角码</h2>
         <div class="price-big">参考价：¥1.48 ~ 7.38/个</div>
@@ -55,7 +59,7 @@ th{background:#f1f5f9;color:var(--primary-dark);width:120px}
     </div>
     <table>
       <tr><th>材质</th><td>Q235B 碳素结构钢</td></tr>
-      <tr><th>表面处理</th><td>热浸镀锌（锌层≥65μm）</td></tr>
+      <tr><th>表面处理</th><td>热浸镀锌（锌层≈25μm，现货标准）</td></tr>
       <tr><th>类型</th><td>L型角码 / T型角码</td></tr>
       <tr><th>规格</th><td>(50+50)~(50+200) × 100 × 8mm</td></tr>
       <tr><th>开孔</th><td>标准腰孔 / 圆孔 / 可定制</td></tr>
